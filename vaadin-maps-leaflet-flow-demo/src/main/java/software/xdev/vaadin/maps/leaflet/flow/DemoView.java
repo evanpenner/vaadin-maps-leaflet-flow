@@ -14,6 +14,7 @@ import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 
 import software.xdev.vaadin.maps.leaflet.flow.demo.ComplexDemo;
+import software.xdev.vaadin.maps.leaflet.flow.demo.EsriArcGISDemo;
 import software.xdev.vaadin.maps.leaflet.flow.demo.FreeingUpResourceBenchmarkDemo;
 import software.xdev.vaadin.maps.leaflet.flow.demo.MinimalisticDemo;
 
@@ -64,6 +65,11 @@ public class DemoView extends Composite<VerticalLayout>
 				FreeingUpResourceBenchmarkDemo.NAV,
 				"Freeing up resources Benchmark",
 				"Benchmark for showcasing how resources a freed up when handling huge amounts of components"
+			),
+			new Example(
+				EsriArcGISDemo.NAV,
+				"Esri ArcGIS Feature Layer",
+				"Showcasing the Esri Leaflet plugin"
 			)
 		));
 	}
